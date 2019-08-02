@@ -309,6 +309,7 @@ input[type="submit"] {
   #masthead {
     position: static;
     margin-bottom: 1%;
+    overflow: hidden;
   }
   #logo {
     width: 130%;
