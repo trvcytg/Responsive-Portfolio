@@ -303,7 +303,7 @@ input[type="submit"] {
 /* General Phone (Landscape) */
 @media screen and (max-width: 640px) {
   body {
-    font-size: 1.75em;
+    font-size: 1em;
     line-height: 2em;
   }
   #masthead {
