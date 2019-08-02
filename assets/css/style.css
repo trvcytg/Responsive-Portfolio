@@ -301,5 +301,27 @@ input[type="submit"] {
 @media screen and (max-width: 640px) {
   #masthead {
     position: static;
+    margin-bottom: 1%;
+  }
+  #logo {
+    width: 130%;
+    max-width: 640px;
+    margin: 0 0 0 -12.5%;
+  }
+  nav {
+    float: none;
+    text-align: center;
+    margin: 0;
+  }
+  nav a:first-child {
+    padding-left: 0;
+    margin-left: 0;
+  }
+  #main-container {
+    padding-top: 1%;
+  }
+  .auth-image {
+    width: 100%;
+    height: auto;
   }
 }
