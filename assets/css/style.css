@@ -256,6 +256,9 @@ input[type="submit"] {
   .work:nth-child(even) {
     margin-right: 5%;
   }
+  footer {
+    height: 10%;
+  }
 }
 
 /* General Tablet */
@@ -299,6 +302,10 @@ input[type="submit"] {
 
 /* General Phone (Landscape) */
 @media screen and (max-width: 640px) {
+  body {
+    font-size: 1.75em;
+    line-height: 2em;
+  }
   #masthead {
     position: static;
     margin-bottom: 1%;
@@ -307,11 +314,15 @@ input[type="submit"] {
     width: 130%;
     max-width: 640px;
     margin: 0 0 0 -12.5%;
+    font-size: 35px;
   }
   nav {
     float: none;
     text-align: center;
     margin: 0;
+  }
+  nav a {
+    font-size: 24px;
   }
   nav a:first-child {
     padding-left: 0;
@@ -323,5 +334,18 @@ input[type="submit"] {
   .auth-image {
     width: 100%;
     height: auto;
+  }
+  .work {
+    width: 100%;
+  }
+  .main-section {
+    padding: 4%;
+    padding-top: 5px;
+  }
+  .work:nth-child(even) {
+    margin-right: 5%;
+  }
+  ul {
+    padding-inline-start: 0px;
   }
 }
