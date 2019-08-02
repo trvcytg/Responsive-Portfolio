@@ -216,3 +216,12 @@ input[type="submit"] {
   background: #4aaaa5;
   border: 0 none;
 }
+/* General Desktop */
+@media screen (max-width: 980px) {
+}
+/* General Tablet */
+@media screen (max-width: 768px) {
+}
+/* General Phone (Landscape) */
+@media screen (max-width: 640px) {
+}
